@@ -2,8 +2,8 @@ import streamlit as st
 import pandas as pd
 from sentence_transformers import SentenceTransformer, util
 
-# تحميل النموذج مع تحديد الجهاز CPU
-model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2", device="cpu")
+# تحميل النموذج بدون تحديد الجهاز
+model = SentenceTransformer("sentence-transformers/paraphrase-multilingual-MiniLM-L12-v2")
 
 # تحميل قاعدة البيانات
 @st.cache_data
