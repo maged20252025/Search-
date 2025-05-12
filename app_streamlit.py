@@ -6,7 +6,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 # تحميل البيانات
 @st.cache_data
 def load_data():
-    return pd.read_csv("محرك_بحث_الأحكام_القضائية.CSV")
+    return pd.read_csv("محرك_بحث_الأحكام_القضائية.csv")
 
 df = load_data()
 
