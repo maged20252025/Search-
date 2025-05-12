@@ -1,4 +1,3 @@
 streamlit
 pandas
 sentence-transformers==2.2.2
-torch==1.13.1
